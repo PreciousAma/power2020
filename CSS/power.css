@@ -1,0 +1,115 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(193, 100%, 96%); 
+}
+
+.card .card-body{
+   /* border-top-style: solid;*/
+    /*border-top-color: 1px solid red;*/ 
+    border-radius: 2px;
+    box-shadow: 1px 2px 8px #b3b3b3;
+}
+
+.headings{
+    text-align: center;
+}
+
+h1{
+    font-weight: 200;
+    font-family: Poppins, sans-serif;
+    margin : auto;
+    color: hsl(234, 12%, 34%);
+}
+
+.heading-two{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 18px;
+}
+
+p{
+    margin: 0px;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
+
+.headings {
+    font-size: 34px;
+}
+
+.card-one{
+    border-top: 3px solid hsl(180,62%,55%) !important;
+
+}
+.card-two{
+    border-top: 3px solid hsl(0,78%, 62%) !important;
+}
+
+.card-three{
+    border-top: 3px solid hsl(34,97%,64%)  !important;
+}
+
+.card-four{
+    border-top: 3px solid hsl(212,86%,64%) !important;
+}
+
+img{
+    float:right;
+}
+
+@media (max-width: 910px){
+    .headings{
+        font-size: 4px;
+        min-height: none;
+    }
+}
+
+ /* Smartphones (portrait and landscape) ----------- */
+ @media only screen and (min-width : 320px) and (max-width : 380px) {
+.card-one{
+    margin-bottom: 50px;
+}
+
+.card{
+    margin-left: 30px;
+}
+
+.h-one{
+    font-size: 1.5rem;
+}
+
+.heading-two{
+    font-size: 1.5rem;
+}
+    }
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 400px) and (max-width : 480px) {
+    .card-one{
+        margin-bottom: 50px;
+    }
+    
+    .card{
+        margin-left: 50px;
+    }
+
+    .h-one{
+        font-size: 1.5rem;
+    }
+
+    .heading-two{
+        font-size: 1.5rem;
+    }
+        }    
+
+
+
